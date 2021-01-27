@@ -284,6 +284,14 @@ body {
   }
 
   .bottom-slider-wrapper {
-    width: inherit;
+    width: 90%;
+    display: flex;
+    overflow: hidden;
+
+  }
+
+  .bottom-slider-item{
+    flex-shrink: 0;
+    
   }
 }
